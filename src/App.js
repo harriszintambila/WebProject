@@ -1,7 +1,7 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import MealsGrid from "./Components/rooms/meals";
-import ImageGrid from "./Components/rooms/rooms";
+import MealsGrid from "./Components/rooms/room";
+import ImageGrid from "./Components/rooms/meals";
 import Root from "./routes/root";
 
 export default function App() {
