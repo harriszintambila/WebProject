@@ -11,7 +11,6 @@ export default function App() {
       <Routes>
           <Route path="/" element={<ImageGrid />}>
           <Route path=""  element={<MealsGrid />} />
-          <Route path=""  element={<ImageGrid />} />
           </Route>
       </Routes>
     </BrowserRouter>
